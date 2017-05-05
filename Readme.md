@@ -1,4 +1,4 @@
-# corenlp-
+# corenlp-request-wrapper
 
 Make simple requests to Stanford CoreNLP with javascript.
 
@@ -17,7 +17,7 @@ This wrapper provides a single method `parse` which interacts with Stanford Core
 To test run `npm test` or `yarn run test`
 
 ```js
-const corenlp = require("./index");
+const corenlp = require("corenlp-request-wrapper");
 
 // CoreNLP Server was lunched here with the french props file on port 9000
 corenlp.parse(
