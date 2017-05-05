@@ -16,7 +16,7 @@ This wrapper provides a single method `parse` which interacts with Stanford Core
 
 To test run `npm test` or `yarn run test`
 
-```
+```js
 const corenlp = require("./index");
 
 // CoreNLP Server was lunched here with the french props file on port 9000
