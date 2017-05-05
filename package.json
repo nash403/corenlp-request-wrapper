@@ -1,0 +1,19 @@
+{
+  "name": "corenlp-request-wrapper",
+  "version": "1.0.0",
+  "description": "Make simple requests to Stanford CoreNLP with javascript.",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "keywords": [
+    "CoreNLP",
+    "NLP",
+    "wrapper"
+  ],
+  "author": "Honoré Nintunze",
+  "license": "MIT",
+  "dependencies": {
+    "request": "^2.81.0"
+  }
+}
