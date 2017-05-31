@@ -1,6 +1,6 @@
 {
   "name": "corenlp-request-wrapper",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Make simple requests to Stanford CoreNLP with javascript.",
   "main": "index.js",
   "scripts": {
