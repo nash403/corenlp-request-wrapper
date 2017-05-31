@@ -12,6 +12,10 @@
     "wrapper"
   ],
   "author": "Honoré Nintunze",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nash403/corenlp-request-wrapper.git"
+  },
   "license": "MIT",
   "dependencies": {
     "request": "^2.81.0"
