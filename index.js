@@ -5,7 +5,7 @@ function parse(stringToProcess, portNumber, annotators, outputFormat, cb) {
     body: stringToProcess,
     qs: {properties: JSON.stringify({annotators, outputFormat}) }
   },function(err, response, body) {
-    cb(err, body response);
+    cb(err, response, body);
   });
 };
 
